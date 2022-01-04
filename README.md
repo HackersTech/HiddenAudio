@@ -31,6 +31,17 @@ cd HiddenAudio
 python3 HideMyShit.py
 ```
 
+## run 
+``` 
+ usage: Hidden_secret.py [-h] [-f AUDIOFILE] [-m SECRETMSG] [-o OUTPUTFILE]
+required arguments -:
+  -h, --help    show the full help menu
+  -f AUDIOFILE  Select Audio File
+  -m SECRETMSG  Enter your message
+  -o OUTPUTFILE Your output file name with extension
+  -e ENCRYPTION YES or NO y/n
+  -b byte_digit  it should be 1 to infinite
+```
 ---
 ### support us and follow on 
 
