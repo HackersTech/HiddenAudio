@@ -15,7 +15,7 @@ optional arguments -:
   -h, --help       show the full help menu
   -f AUDIOFILE     Select Audio File
 \033[38;5;232;48;5;227m  -k DECRYPTION           yes or y if message is encrypted else leave this argument
-  -b BYTES         decryption digit that is used while encrypting                  \033[0m ''',end='\033[0m')
+  -b BYTES         decryption digit that is used while encrypting if it is used       \033[0m ''',end='\033[0m')
    
     exit()
 
