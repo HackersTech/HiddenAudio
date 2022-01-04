@@ -28,7 +28,7 @@ Here -:
 - git clone https://github.com/HackersTech/HiddenAudio
 ```
 cd HiddenAudio
-python3 k.py
+python3 HideMyShit.py
 ```
 
 ---
