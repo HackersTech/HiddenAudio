@@ -27,7 +27,7 @@ Here -:
 
 - git clone https://github.com/HackersTech/HiddenAudio
 ```
-cd black-hat_python
+cd HiddenAudio
 python3 k.py
 ```
 
