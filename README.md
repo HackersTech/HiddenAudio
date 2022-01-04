@@ -1,6 +1,6 @@
-# HiddenAudio
-hide text message or secret in any type of music/audio files (.mp3 , .wav , .m4a ) etc #hide #secret  #text in #audio 
 # Hidden_Audio
+hide text message or secret in any type of music/audio files (.mp3 , .wav , .m4a ) etc #hide #secret  #text in #audio 
+
 ### Advantages -
 - > More advance tool 
 - > Easy to use
