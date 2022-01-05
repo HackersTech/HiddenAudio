@@ -33,7 +33,7 @@ if dec==None:
     print('\n \033[32m msg extracted successfully')
 elif dec=='y' or dec=='YES' or dec=="yes" or dec=="Y":
     try:
-        byte=int(args.byte_digit)
+        byte=int(arg.byte)
     except:
         print('integer value required')
         exit()
@@ -48,8 +48,11 @@ elif dec=='y' or dec=='YES' or dec=="yes" or dec=="Y":
     pn=pn.strip('b"')
     
     print(pn)
-    print('\033[34m enter this list to decrypt the hidden message')
-    pn=eval(input("""-> """))
+    
+    o=open("encrypted.txt",'w')
+    o.write(pn)
+    o=open("encrypted.txt","r")
+    pn=eval(o.read())
     
 #    r=str(r).partition("      ")
  #   r=r[2]
