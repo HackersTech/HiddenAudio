@@ -28,7 +28,7 @@ else:
     
     if enc=='Y' or enc=='YES' or enc =='y' or enc=='yes':
         try:
-            byte=int(args.byte)
+            byte=int(args.byte_digit)
         except:
             print('integer value required')
             exit()
