@@ -27,14 +27,15 @@ else:
     a=os.system('whoami')
     
     if enc=='Y' or enc=='YES' or enc =='y' or enc=='yes':
-        if not byte:
-            print('by default value is 1')
-            byte=1
         try:
             byte=int(args.byte_digit)
         except:
             print('integer value required')
             exit()
+        if not byte:
+            print('by default value is 1')
+            byte=1
+        
         import binascii
         bi=eval(f"binascii.hexlify(b'{m}')")
         
