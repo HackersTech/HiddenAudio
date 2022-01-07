@@ -72,7 +72,7 @@ elif dec=='y' or dec=='YES' or dec=="yes" or dec=="Y":
         print(binascii.unhexlify(m),'\n \n','\033[32m message decrypted successfully ')
     except:
         print('\033[31m message byte is wrong or incorrect')
-
+        print('in hindi be like hackers tech ka jadu h tutega nahi')
  
 else:
     pass
