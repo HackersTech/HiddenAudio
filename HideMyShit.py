@@ -1,6 +1,7 @@
 #hackers tech 
 #/dev/null/
 #hacker+programmer
+#dont touch the code 
 
 print("""Author of this
 \033[33m
