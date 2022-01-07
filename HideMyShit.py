@@ -2,7 +2,8 @@
 #/dev/null/
 #hacker+programmer
 
-print("""\033[32m
+print("""Author of this
+\033[33m
  +-+-+-+-+-+-+-+ +-+-+-+-+
  |h|a|c|k|e|r|s| |t|e|c|h|
  +-+-+-+-+-+-+-+ +-+-+-+-+""")
