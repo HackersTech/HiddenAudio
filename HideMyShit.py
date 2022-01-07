@@ -6,6 +6,19 @@ print("""\033[32m
  +-+-+-+-+-+-+-+ +-+-+-+-+
  |h|a|c|k|e|r|s| |t|e|c|h|
  +-+-+-+-+-+-+-+ +-+-+-+-+""")
+a=input('enter name-: ')
+b=len(a)
+print('tool is used by \n \t')
+j='+''-'
+n=''.join(j*b)
+print(n,end='+')
+print()
+for i in a:
+    print(f'|{i}',end='')
+print("|")
+print(''.join(j*b),end='')
+print("+")
+
 
 import argparse, os,sys,time
 parser = argparse.ArgumentParser()
