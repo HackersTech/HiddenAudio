@@ -1,14 +1,14 @@
-
-import argparse
+#dont touch the code
+import argparse #importing module
 parser = argparse.ArgumentParser()
 parser.add_argument('-f', dest='file',help='hidden msg finder/extracter file')
 parser.add_argument('-k', dest='dec',help='file is encrypted yes or no else leave blank',required=False)
 parser.add_argument('-b', dest='byte',help='file is encrypted then give byte digit else leave blank',required=False)
-
+#doing argument parsing
 arg=parser.parse_args()
 f=arg.file
 dec=arg.dec
-
+#applying condition if args not provided
 if not f :
     print('''\033[32m usage: extxt.py [-h --help] [-f AUDIOFILE] [-k private key file ]
 optional arguments -:
@@ -20,10 +20,10 @@ optional arguments -:
     exit()
 
 
-
+# it will move on if condition is not true
  
 import binascii
-if dec==None:
+if dec==None:  #again putting condition if no need for encryption 
     print('')
     o=open(f,'rb')
     r=o.read()
@@ -32,21 +32,21 @@ if dec==None:
     print(r[1].strip("b'"))
     print('\n \033[32m msg extracted successfully')
 elif dec=='y' or dec=='YES' or dec=="yes" or dec=="Y":
-    try:
+    try:    # if conditioin is y yes then try for byte is its integer except give error option
         byte=int(arg.byte)
     except:
         print('integer value required')
         exit()
     if not byte:
         print('bytes using default value 1')
-        byte=1
+        byte=1                #if byte if not defined only encryption is yes then byte will be 0 
     
-    o=open(f,'rb')
+    o=open(f,'rb')      #extracting data from audio /music file
     r=o.read()
     r=r.partition(b"      ")
     pn=str(r[2]).strip("b'")
-    pn=pn.strip('b"')
-    
+    pn=pn.strip('b"')       
+    #removing byte "b" from that list of encrypted number 
     print(pn)
     
     o=open("encrypted.txt",'w')
