@@ -1,3 +1,12 @@
+#hackers tech 
+#/dev/null/
+#hacker+programmer
+
+print("""\033[32m
+ +-+-+-+-+-+-+-+ +-+-+-+-+
+ |h|a|c|k|e|r|s| |t|e|c|h|
+ +-+-+-+-+-+-+-+ +-+-+-+-+""")
+
 import argparse, os,sys,time
 parser = argparse.ArgumentParser()
 parser.add_argument('-f', dest='file',help='any type of file')
