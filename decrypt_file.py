@@ -1,3 +1,5 @@
+#hackers tech
+#dont touch the ode 
 import binascii
 i=input('\033[34m file name')
 byte=input("\033[1;32m bytes-:")
