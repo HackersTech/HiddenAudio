@@ -46,7 +46,8 @@ required arguments -:
   -b byte_digit  it should be 1 to infinite
 """)
 else:
-    a=os.system('whoami')
+    
+    a=''
     
     if enc=='Y' or enc=='YES' or enc =='y' or enc=='yes':
         try:
